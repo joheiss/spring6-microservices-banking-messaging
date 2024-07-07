@@ -35,9 +35,15 @@
       <groupId>org.springframework.cloud</groupId>
       <artifactId>spring-cloud-stream</artifactId>
     </dependency>
-		    <dependency>
+		<!--
+		<dependency>
       <groupId>org.springframework.cloud</groupId>
       <artifactId>spring-cloud-stream-binder-rabbit</artifactId>
+    </dependency>
+		-->
+		<dependency>
+      <groupId>org.springframework.cloud</groupId>
+      <artifactId>spring-cloud-stream-binder-kafka</artifactId>
     </dependency>
 		<!-- 
 		<dependency>
@@ -100,7 +106,7 @@
 				<version>3.4.2</version>
 				<configuration>
 					<to>
-						<image>joheiss/sb3-${project.artifactId}:v8.1</image>
+						<image>joheiss/sb3-${project.artifactId}:v8.2</image>
 					</to>
 				</configuration>
 			</plugin>
