@@ -19,6 +19,7 @@ spring:
         binder:
           brokers:
             - localhost:9092
+      default-binder: kafka
         
   # rabbitmq:
   #   host: localhost
